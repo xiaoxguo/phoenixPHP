@@ -9,6 +9,6 @@ class PhoenixPHP
 
     public static function initIndex()
     {
-        
+        echo "init\n";
     }
 }

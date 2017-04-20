@@ -1,6 +1,4 @@
 <?php
-$dir = dirname(__DIR__);
-var_dump($dir);die;
-
-//require __DIR__ . '/../frame/frame.php';
-//PhoenixPHP::run();
+define('ROOT_PATH', dirname(dirname(__dir__)) . DIRECTORY_SEPARATOR);
+require ROOT_PATH . 'src/frame/frame.php';
+PhoenixPHP::run();

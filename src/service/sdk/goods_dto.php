@@ -1,5 +1,5 @@
 <?php
-namespace Erp\Goods;
+namespace Erp;
 
 class GoodsDTO extends \Foundation\DTO
 {

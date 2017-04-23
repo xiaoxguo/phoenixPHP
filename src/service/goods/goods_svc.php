@@ -1,8 +1,8 @@
 <?php
 
-class GoodsServiceImpl implements \Erp\IGoodsService
+class GoodsServiceImpl extends GoodsSvc implements \Erp\IGoodsService
 {
-    public function create(\Erp\Goods\GoodsDTO $goodsDTO)
+    public function create(\Erp\GoodsDTO $goodsDTO)
     {
         var_dump($goodsDTO);die;
     }
